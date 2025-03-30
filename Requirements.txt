@@ -1,0 +1,19 @@
+# Core dependencies for Node.js application
+dotenv==16.0.3  # For managing environment variables
+express==4.18.2  # Web framework for creating API endpoints
+body-parser==1.20.2  # Middleware for parsing incoming request bodies
+
+# Validation and security
+joi==17.8.0  # For validating card data and input
+crypto-js==4.1.1  # For secure token generation and encryption
+
+# Payment gateway SDKs (optional, depending on integration)
+stripe==12.0.0  # Stripe SDK for payment processing (if Stripe is used)
+budpay-sdk==1.0.0  # BudPay SDK for payment processing (if BudPay is used)
+
+# Testing tools (optional)
+mocha==10.2.0  # Testing framework
+chai==4.3.7  # Assertion library for testing
+
+# Deployment tools (optional)
+render-cli==0.1.5  # For deploying the application to Render

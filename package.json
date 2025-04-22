@@ -10,14 +10,15 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "crypto-js": "^4.1.1",
-    "express": "^4.18.2",
     "body-parser": "^1.20.2",
-    "joi": "^17.8.0"
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.0",
+    "yocto-queue": "^1.2.1"
   },
   "devDependencies": {
-    "mocha": "^10.2.0",
-    "chai": "^4.3.7"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   }
 }
